@@ -25,8 +25,8 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>JacobiVstInterop</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <TargetFramework>net6.0</TargetFramework>
-    <WindowsTargetPlatformMinVersion>7.0</WindowsTargetPlatformMinVersion>
+    <TargetFramework>net8.0</TargetFramework>
+    <WindowsTargetPlatformMinVersion>10.0</WindowsTargetPlatformMinVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -296,7 +296,7 @@
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Jacobi.Vst.Core\Jacobi.Vst.Core.csproj">
+      <ProjectReference Include="..\Jacobi.Vst.Core\Jacobi.Vst.Core.csproj">
       <Project>{907f0f43-1bb8-4259-ba0b-d9bcdf574b0c}</Project>
     </ProjectReference>
   </ItemGroup>
